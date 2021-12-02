@@ -1,5 +1,5 @@
  package utilities.Pack;
 
-public class UtilityClass {
+public class UtilityClasses {
 
 }
