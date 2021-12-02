@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite123">
+  <test name="ChromeTest">
+    <classes>
+      <class name="test.Pack.BuyYesBankShare"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Edge">
+    <classes>
+      <class name="test.Pack.BuyYesBankShare"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite123 -->

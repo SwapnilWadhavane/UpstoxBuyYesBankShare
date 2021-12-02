@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite234]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
+    <classes>
+      <class name="test.Pack.BuyYesBankShare">
+        <methods>
+          <include name="clear"/>
+          <include name="close"/>
+          <include name="loginToUpstox"/>
+          <include name="launchApplication"/>
+          <include name="logoutUpstox"/>
+          <include name="launchBrowser"/>
+          <include name="BuyYesBankShare"/>
+          <include name="clickOnFavourite"/>
+        </methods>
+      </class> <!-- test.Pack.BuyYesBankShare -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite234] -->
